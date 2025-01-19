@@ -1,0 +1,9 @@
+# Ignorera alla filer med .jar
+*.jar
+
+# Ignorera alla filer i mapparna out och target
+/out/
+/target/
+
+# Tillåt HTML-filer även under target
+!/target/**/*.html
